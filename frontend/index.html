@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberX - Cybersecurity Awareness Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+    </style>
+</head>
+<body>
+    <!-- Animated Particle Background -->
+    <div id="particles-background"></div>
+
+    <!-- Mobile Overlay for Navbar -->
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-shield-alt"></i>
+                CyberX
+            </a>
+            <ul class="nav-menu">
+                <li><a onclick="scrollToSection('home')">Home</a></li>
+                <li><a onclick="scrollToSection('stats')">Research</a></li>
+                <li><a onclick="scrollToSection('survey')">Survey</a></li>
+                <li><a onclick="scrollToSection('results')">Result</a></li>
+                <li><a onclick="scrollToSection('security-tools')">Security</a></li>
+                <li><a onclick="scrollToSection('education')">Resources</a></li>
+                <li><a onclick="scrollToSection('support')">Support</a></li>
+                <li><a onclick="scrollToSection('contact')">Contact</a></li>
+            </ul>
+            <div class="mobile-menu" id="mobileMenu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>CyberX Security</h1>
+            <p>Cyber security Awareness Survey - Protecting Digital Futures Through Advanced Security Education</p>
+            <div class="cta-buttons">
+                <a href="#survey" class="btn btn-secondary" onclick="scrollToSection('survey')">
+                    <i class="fas fa-clipboard-list"></i> Take Survey
+                </a>
+                <a href="#results" class="btn btn-secondary" onclick="scrollToSection('results')">
+                    <i class="fas fa-chart-bar"></i> View Results
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Cybersecurity Awareness Research</h2>
+                <p class="section-subtitle">Advanced analytics and comprehensive assessment of cybersecurity awareness levels among educational institutions</p>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="stat-number">115</div>
+                    <div class="stat-label">Student Participants</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="stat-number">68%</div>
+                    <div class="stat-label">Awareness Level</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="stat-number">56%</div>
+                    <div class="stat-label">Use Strong Passwords</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="stat-number">55%</div>
+                    <div class="stat-label">Use 2FA</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Survey Section -->
+    <section id="survey" class="survey-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">CyberX Survey Portal</h2>
+                <p class="section-subtitle">Choose your preferred method to participate in our comprehensive cybersecurity assessment</p>
+            </div>
+            
+            <div class="survey-cards">
+                <div class="survey-card" onclick="activateCard(this, 'quick'); openQuickSurvey();">
+                    <div class="survey-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Quick Assessment</h3>
+                    <p>Fast 5-minute survey covering essential cybersecurity practices</p>
+                    <div class="btn btn-secondary" onclick="event.stopPropagation(); openQuickSurvey();">
+                        <i class="fas fa-rocket"></i> Quick Start
+                    </div>
+                </div>
+
+                <div class="survey-card active" onclick="activateCard(this, 'comprehensive')">
+                    <div class="survey-icon">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                    <h3>Comprehensive Survey</h3>
+                    <p>Detailed assessment with personalized security recommendations</p>
+                    <div class="btn btn-secondary" onclick="event.stopPropagation(); window.open('https://docs.google.com/forms/d/e/1FAIpQLScpWQ6GPcNiIDJ9rP7TIFyMDDYumRGdbTsmKe0iX0T1NyPjrw/viewform', '_blank');">
+                        <i class="fas fa-clipboard-list"></i> Full Survey
+                    </div>
+                </div>
+            </div>
+            
+
+
+            <!-- Cybersecurity Safe-keeping Gadgets Section -->
+            <div class="gadgets-section" style="margin-top: 4rem;">
+                <div class="section-header">
+                    <h2 class="section-title"><i class="fas fa-microchip"></i> Hardware Security Gadgets</h2>
+                    <p class="section-subtitle">Essential physical security tools to protect your hardware, network, and offline data from digital intruders.</p>
+                </div>
+                
+                <div class="gadgets-grid">
+                    <div class="gadget-card" onclick="showGadgetDetail('yubikey')">
+                        <div class="gadget-header">
+                            <div class="gadget-icon"><i class="fas fa-key"></i></div>
+                            <h4 class="gadget-title">Hardware Security Key</h4>
+                        </div>
+                        <p class="gadget-desc">Physical keys like YubiKey provide cryptographic two-factor authentication (2FA) that is immune to phishing attacks.</p>
+                        <button class="gadget-action-btn">
+                            <i class="fas fa-shield-alt"></i> How it Protects
+                        </button>
+                    </div>
+
+                    <div class="gadget-card" onclick="showGadgetDetail('encrypted-usb')">
+                        <div class="gadget-header">
+                            <div class="gadget-icon"><i class="fas fa-usb"></i></div>
+                            <h4 class="gadget-title">Encrypted USB Drive</h4>
+                        </div>
+                        <p class="gadget-desc">USB drives with built-in hardware PIN pads and military-grade AES 256-bit encryption keep your sensitive files private.</p>
+                        <button class="gadget-action-btn">
+                            <i class="fas fa-shield-alt"></i> How it Protects
+                        </button>
+                    </div>
+
+                    <div class="gadget-card" onclick="showGadgetDetail('vpn-router')">
+                        <div class="gadget-header">
+                            <div class="gadget-icon"><i class="fas fa-network-wired"></i></div>
+                            <h4 class="gadget-title">Hardware Firewall Router</h4>
+                        </div>
+                        <p class="gadget-desc">A dedicated VPN router runs network-wide encryption, protecting all connected IoT smart-home devices at the gateway.</p>
+                        <button class="gadget-action-btn">
+                            <i class="fas fa-shield-alt"></i> How it Protects
+                        </button>
+                    </div>
+
+                    <div class="gadget-card" onclick="showGadgetDetail('usb-blocker')">
+                        <div class="gadget-header">
+                            <div class="gadget-icon"><i class="fas fa-plug"></i></div>
+                            <h4 class="gadget-title">USB Data Blocker</h4>
+                        </div>
+                        <p class="gadget-desc">Also known as a "USB Condom", it blocks data pins on USB ports, letting power flow while preventing juice jacking.</p>
+                        <button class="gadget-action-btn">
+                            <i class="fas fa-shield-alt"></i> How it Protects
+                        </button>
+                    </div>
+
+                    <div class="gadget-card" onclick="showGadgetDetail('webcam-cover')">
+                        <div class="gadget-header">
+                            <div class="gadget-icon"><i class="fas fa-eye-slash"></i></div>
+                            <h4 class="gadget-title">Webcam Cover & Mic Blocker</h4>
+                        </div>
+                        <p class="gadget-desc">Physical webcam slides and mic blockers physically disable visual and audio spying even if spyware infects your device.</p>
+                        <button class="gadget-action-btn">
+                            <i class="fas fa-shield-alt"></i> How it Protects
+                        </button>
+                    </div>
+
+                    <div class="gadget-card" onclick="showGadgetDetail('privacy-screen')">
+                        <div class="gadget-header">
+                            <div class="gadget-icon"><i class="fas fa-desktop"></i></div>
+                            <h4 class="gadget-title">Privacy Screen Filter</h4>
+                        </div>
+                        <p class="gadget-desc">Polarized filters for laptops and phones narrow the viewing angle to block shoulder surfing in public places.</p>
+                        <button class="gadget-action-btn">
+                            <i class="fas fa-shield-alt"></i> How it Protects
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="results" class="results-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Real-Time Analytics Dashboard</h2>
+                <p class="section-subtitle">Live insights from survey responses with advanced data visualization</p>
+            </div>
+            
+            <div class="chart-grid">
+                <div class="chart-container">
+                    <h3 class="chart-title">Cybersecurity Awareness Level</h3>
+                    <div class="chart-wrapper">
+                        <canvas id="awarenessChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="chart-container">
+                    <h3 class="chart-title">Password Security Practices</h3>
+                    <div class="chart-wrapper">
+                        <canvas id="passwordChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="chart-container">
+                    <h3 class="chart-title">Security Knowledge by Age Group</h3>
+                    <div class="chart-wrapper">
+                        <canvas id="knowledgeChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="chart-container">
+                    <h3 class="chart-title">Age Distribution</h3>
+                    <div class="chart-wrapper">
+                        <canvas id="ageChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="chart-container">
+                    <h3 class="chart-title">Internet Usage Patterns</h3>
+                    <div class="chart-wrapper">
+                        <canvas id="usageChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Fixed 6th Graph - Security Challenges as Cards -->
+                <div class="chart-container">
+                    <h3 class="chart-title">Security Challenges</h3>
+                    <div class="security-challenges">
+                        <div class="challenge-card">
+                            <div class="challenge-header">
+                                <div class="challenge-icon">
+                                    <i class="fas fa-exclamation-triangle"></i>
+                                </div>
+                                <div class="challenge-title">Lack of Awareness</div>
+                            </div>
+                            <div class="challenge-content">31% of respondents lack basic cybersecurity knowledge</div>
+                            <div class="challenge-stats">
+                                <span>High Risk</span>
+                                <div class="challenge-trend trend-up">
+                                    <i class="fas fa-arrow-up"></i>
+                                    <span>+15%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="challenge-card">
+                            <div class="challenge-header">
+                                <div class="challenge-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <div class="challenge-title">No Proper Guidance</div>
+                            </div>
+                            <div class="challenge-content">24% report insufficient cybersecurity training</div>
+                            <div class="challenge-stats">
+                                <span>Medium Risk</span>
+                                <div class="challenge-trend trend-up">
+                                    <i class="fas fa-arrow-up"></i>
+                                    <span>+17%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="challenge-card">
+                            <div class="challenge-header">
+                                <div class="challenge-icon">
+                                    <i class="fas fa-brain"></i>
+                                </div>
+                                <div class="challenge-title">Forgetfulness/Laziness</div>
+                            </div>
+                            <div class="challenge-content">20% admit to poor security habits due to convenience</div>
+                            <div class="challenge-stats">
+                                <span>Medium Risk</span>
+                                <div class="challenge-trend trend-up">
+                                    <i class="fas fa-arrow-up"></i>
+                                    <span>+27%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="challenge-card">
+                            <div class="challenge-header">
+                                <div class="challenge-icon">
+                                    <i class="fas fa-key"></i>
+                                </div>
+                                <div class="challenge-title">Too Many Passwords</div>
+                            </div>
+                            <div class="challenge-content">13% struggle with password management complexity</div>
+                            <div class="challenge-stats">
+                                <span>Low Risk</span>
+                                <div class="challenge-trend trend-up">
+                                    <i class="fas fa-arrow-up"></i>
+                                    <span>+11%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Security Tools Section -->
+    <section id="security-tools" class="security-tools-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Security Tools Dashboard</h2>
+                <p class="section-subtitle">Check your account security and monitor live security incidents</p>
+            </div>
+            
+            <div class="security-tools-grid">
+                <div class="password-checker">
+                    <h3>Account Security Checker</h3>
+                    
+                    <!-- Email/Phone Input -->
+                    <div class="input-container">
+                        <input type="text" id="email-phone-input" class="email-phone-input" 
+                               placeholder="Enter email or phone number">
+                        <i class="fas fa-user input-icon"></i>
+                    </div>
+                    
+                    <!-- Password Input -->
+                    <div class="input-container">
+                        <input type="password" id="password-input" class="password-input" 
+                               placeholder="Enter your password">
+                        <i class="fas fa-lock input-icon"></i>
+                        <button type="button" class="toggle-password" id="togglePassword">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                    </div>
+                    
+                    <!-- Security Status -->
+                    <div class="security-status" id="securityStatus">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Enter credentials to check security</span>
+                    </div>
+                    
+                    <!-- Password Strength Meter -->
+                    <div class="password-strength-meter">
+                        <div id="password-strength-bar" class="password-strength-bar"></div>
+                    </div>
+                    <div id="password-strength-text" class="password-strength-text">
+                        Password not entered
+                    </div>
+                    
+                    <!-- Security Tips -->
+                    <ul class="security-tips">
+                        <li><i class="fas fa-check-circle"></i> Use unique password for each account</li>
+                        <li><i class="fas fa-check-circle"></i> Enable two-factor authentication</li>
+                        <li><i class="fas fa-check-circle"></i> Add numbers and special characters</li>
+                        <li><i class="fas fa-check-circle"></i> Use at least 8 characters</li>
+                        <li><i class="fas fa-check-circle"></i> Avoid common words and patterns</li>
+                    </ul>
+                    <!-- Check Button -->
+                    <button class="btn btn-primary check-security-btn" id="checkSecurityBtn">
+                        <i class="fas fa-shield-check"></i> Check Security
+                    </button>
+                </div>
+
+                <div class="security-incidents">
+                    <h3>Latest Security Incidents</h3>
+                    <ul class="incident-list">
+                        <li class="incident-item">
+                            <div class="incident-time">15 minutes ago</div>
+                            <div class="incident-details">
+                                <div class="incident-type">Ransomware Alert</div>
+                                <div class="incident-description">New variant targeting small businesses via email attachments</div>
+                            </div>
+                        </li>
+                        <li class="incident-item">
+                            <div class="incident-time">1 hour ago</div>
+                            <div class="incident-details">
+                                <div class="incident-type">Data Breach Report</div>
+                                <div class="incident-description">Major healthcare provider compromised - 2.3M records affected</div>
+                            </div>
+                        </li>
+                        <li class="incident-item">
+                            <div class="incident-time">2 hours ago</div>
+                            <div class="incident-details">
+                                <div class="incident-type">Vulnerability Discovered</div>
+                                <div class="incident-description">Critical zero-day in popular VPN software - update immediately</div>
+                            </div>
+                        </li>
+                        <li class="incident-item">
+                            <div class="incident-time">4 hours ago</div>
+                            <div class="incident-details">
+                                <div class="incident-type">Phishing Campaign</div>
+                                <div class="incident-description">Targeted attacks on financial institutions increasing</div>
+                            </div>
+                        </li>
+                        <li class="incident-item">
+                            <div class="incident-time">5 hours ago</div>
+                            <div class="incident-details">
+                                <div class="incident-type">IoT Security Warning</div>
+                                <div class="incident-description">New vulnerabilities discovered in smart home devices</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Security Resources</h2>
+                <p class="section-subtitle">TSDC cybersecurity education materials curated by industry experts</p>
+            </div>
+            
+            <div class="resource-grid">
+                <div class="resource-card" onclick="showResource('password')">
+                    <div class="resource-icon">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <h3>Password Mastery</h3>
+                    <p>Advanced password security techniques and enterprise-grade password management strategies.</p>
+                    <div class="btn btn-primary">
+                        <i class="fas fa-book-open"></i> Master Now
+                    </div>
+                </div>
+
+                <div class="resource-card" onclick="showResource('phishing')">
+                    <div class="resource-icon">
+                        <i class="fas fa-fish"></i>
+                    </div>
+                    <h3>Phishing Defense</h3>
+                    <p>Elite-level phishing detection and prevention strategies used by cybersecurity professionals.</p>
+                    <div class="btn btn-primary">
+                        <i class="fas fa-shield-alt"></i> Defend Now
+                    </div>
+                </div>
+
+                <div class="resource-card" onclick="showResource('browsing')">
+                    <div class="resource-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Secure Navigation</h3>
+                    <p>Professional-grade secure browsing techniques and advanced privacy protection methods.</p>
+                    <div class="btn btn-primary">
+                        <i class="fas fa-compass"></i> Navigate
+                    </div>
+                </div>
+
+                <div class="resource-card" onclick="showResource('mobile')">
+                    <div class="resource-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Fortress</h3>
+                    <p>Enterprise-level mobile security protocols and advanced device protection strategies.</p>
+                    <div class="btn btn-primary">
+                        <i class="fas fa-lock"></i> Secure Now
+                    </div>
+                </div>
+
+                <div class="resource-card" onclick="showResource('2fa')">
+                    <div class="resource-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3>Authentication Elite</h3>
+                    <p>Multi-factor authentication mastery and biometric security implementation guides.</p>
+                    <div class="btn btn-primary">
+                        <i class="fas fa-fingerprint"></i> Authenticate
+                    </div>
+                </div>
+
+                <div class="resource-card" onclick="showResource('social')">
+                    <div class="resource-icon">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <h3>Social Media Vault</h3>
+                    <p>Advanced social media privacy controls and professional digital identity management.</p>
+                    <div class="btn btn-primary">
+                        <i class="fas fa-eye-slash"></i> Protect
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Section -->
+    <section id="support" class="support-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Support Center</h2>
+                <p class="section-subtitle">Get expert assistance for all your cybersecurity needs</p>
+            </div>
+            
+            <div class="support-grid">
+                <div class="support-card">
+                    <div class="support-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Help Desk</h3>
+                    <p>Round-the-clock technical support for immediate cybersecurity assistance and guidance.</p>
+                    <button class="btn btn-primary" onclick="contactSupport('helpdesk')">
+                        <i class="fas fa-phone-alt" style="transform: scaleX(-1); display: inline-block;"></i> Contact Support
+                    </button>
+                </div>
+
+                <div class="support-card">
+                    <div class="support-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Knowledge Base</h3>
+                    <p>Comprehensive documentation, tutorials, and FAQs for self-service troubleshooting.</p>
+                    <button class="btn btn-primary" onclick="contactSupport('knowledge')">
+                        <i class="fas fa-search"></i> Browse Resources
+                    </button>
+                </div>
+
+                <div class="support-card">
+                    <div class="support-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Community Forum</h3>
+                    <p>Connect with cybersecurity professionals and enthusiasts to share knowledge and solutions.</p>
+                    <button class="btn btn-primary" onclick="contactSupport('forum')">
+                        <i class="fas fa-comments"></i> Join Discussion
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resource Details Section -->
+    <section id="resource-details" class="resource-details">
+        <div class="resource-content">
+            <div class="resource-header">
+                <a href="#" class="back-button" onclick="event.preventDefault(); hideResource();">
+                    <i class="fas fa-arrow-left"></i> Back to Resources
+                </a>
+                <h2 id="resource-title" class="section-title">Advance Security Training</h2>
+                <p id="resource-desc" class="section-subtitle">Professional-grade cybersecurity education</p>
+            </div>
+            
+            <div class="resource-videos" id="resource-videos">
+                <!-- Videos will be dynamically inserted here -->
+            </div>
+            
+            <div class="chart-container">
+                <h3>TSDC Security Guidelines</h3>
+                <ul id="resource-tips" style="list-style: none; padding: 0;">
+                    <!-- Tips will be dynamically inserted here -->
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3 style="color: var(--gold); text-align: center; margin-bottom: 1.5rem;">CyberX Support Center</h3>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h4 style="color: var(--gold);">Secure Email</h4>
+                        <p style="color: rgba(255,255,255,0.8);">yadavkishan50501@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone-alt" style="transform: scaleX(-1); display: inline-block;"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h4 style="color: var(--gold);">Emergency Hotline</h4>
+                        <p style="color: rgba(255,255,255,0.8);">+91(8237624964)</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h4 style="color: var(--gold);">Secure Location</h4>
+                        <p style="color: rgba(255,255,255,0.8);">CyberX Command Center<br>Mumbai, Maharashtra </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form">
+                <h3 style="color: var(--gold); text-align: center; margin-bottom: 1.5rem;">Secure Communication</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Secure Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Encrypted Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">
+                        <i class="fas fa-paper-plane"></i> Send Encrypted
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div style="display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 1rem;">
+                <i class="fas fa-shield-alt" style="font-size: 2rem; color: var(--secondary);"></i>
+                <h3 style="color: var(--gold);">CyberX Center</h3>
+            </div>
+            <p style="color: rgba(255,255,255,0.8);">Premium cybersecurity research and advanced threat intelligence</p>
+            
+            <div class="footer-links">
+                <a href="#home" onclick="scrollToSection('home')">Command Center</a>
+                <a href="#stats" onclick="scrollToSection('stats')">Research</a>
+                <a href="#survey" onclick="scrollToSection('survey')">Assessment</a>
+                <a href="#results" onclick="scrollToSection('results')">Analytics</a>
+                <a href="#security-tools" onclick="scrollToSection('security-tools')">Security</a>
+                <a href="#education" onclick="scrollToSection('education')">Training</a>
+                <a href="#support" onclick="scrollToSection('support')">Support</a>
+                <a href="#contact" onclick="scrollToSection('contact')">Secure Contact</a>
+                <a onclick="openAdminInbox()" style="cursor: pointer; color: var(--gold);"><i class="fas fa-lock-open"></i> Admin Panel</a>
+            </div>
+            
+            <div class="social-links">
+                <!-- Social Media Links Template -->
+                <a href="https://www.linkedin.com/in/kishan-yadav-987942301" title="Secure Network" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://twitter.com/Kiishan_00" title="Intelligence Feed" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/kishan0701" title="Research Portal" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://t.me/Kiishan_Yadav" title="Threat Alerts" target="_blank"><i class="fab fa-telegram"></i></a>
+                <a href="https://www.instagram.com/kiishann_" title="Insta Feed" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/+918237624964" title="WhatsApp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="mailto:yadavkishan50501@gmail.com" title="Email Me" target="_blank"><i class="fas fa-envelope"></i></a>
+                </div>
+            <div class="copyright" style="color: rgba(255,255,255,0.6);">
+                &copy; 2025 CyberX centre By kishan... Maximum Security Protocols Active.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    </script>
+    <!-- Quick Survey Modal -->
+    <div id="surveyModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3><i class="fas fa-clipboard-list" style="color: var(--secondary); margin-right: 10px;"></i>Quick Cybersecurity Assessment</h3>
+                <span class="close-modal" id="closeSurveyModal">&times;</span>
+            </div>
+            <form id="quickSurveyForm">
+                <div class="survey-step active" data-step="1">
+                    <h4 class="step-question">Step 1: What is your Age Group?</h4>
+                    <div class="survey-options">
+                        <label class="survey-option-label">
+                            <input type="radio" name="ageGroup" value="Below 18" required>
+                            <span>Below 18</span>
+                        </label>
+                        <label class="survey-option-label">
+                            <input type="radio" name="ageGroup" value="18-30">
+                            <span>18-30</span>
+                        </label>
+                        <label class="survey-option-label">
+                            <input type="radio" name="ageGroup" value="30-45">
+                            <span>30-45</span>
+                        </label>
+                        <label class="survey-option-label">
+                            <input type="radio" name="ageGroup" value="45+">
+                            <span>45+</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="survey-step" data-step="2">
+                    <h4 class="step-question">Step 2: How many hours a day do you spend online?</h4>
+                    <div class="survey-options">
+                        <label class="survey-option-label">
+                            <input type="radio" name="usageHours" value="Rarely" required>
+                            <span>Rarely (Less than 1 hour)</span>
+                        </label>
+                        <label class="survey-option-label">
+                            <input type="radio" name="usageHours" value="1-2 hours">
+                            <span>1-2 hours</span>
+                        </label>
+                        <label class="survey-option-label">
+                            <input type="radio" name="usageHours" value="3-5 hours">
+                            <span>3-5 hours</span>
+                        </label>
+                        <label class="survey-option-label">
+                            <input type="radio" name="usageHours" value="5+ hours">
+                            <span>5+ hours</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="survey-step" data-step="3">
+                    <h4 class="step-question">Step 3: What is the strength of your primary account passwords?</h4>
+                    <div class="survey-options">
+                        <label class="survey-option-label">
+                            <input type="radio" name="passwordStrength" value="Weak" required>
+                            <span>Weak (e.g. common words, short length, no symbols)</span>
+                        </label>
+                        <label class="survey-option-label">
+                            <input type="radio" name="passwordStrength" value="Medium">
+                            <span>Medium (longer, includes some numbers/symbols, reused)</span>
+                        </label>
+                        <label class="survey-option-label">
+                            <input type="radio" name="passwordStrength" value="Strong">
+                            <span>Strong (12+ characters, unique for each site, random mix)</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="survey-step" data-step="4">
+                    <h4 class="step-question">Step 4: Do you use Two-Factor Authentication (2FA)?</h4>
+                    <div class="survey-options">
+                        <label class="survey-option-label">
+                            <input type="radio" name="mfaUse" value="No" required>
+                            <span>No, I don't use 2FA</span>
+                        </label>
+                        <label class="survey-option-label">
+                            <input type="radio" name="mfaUse" value="Sometimes">
+                            <span>Yes, but only on extremely important accounts (like banking)</span>
+                        </label>
+                        <label class="survey-option-label">
+                            <input type="radio" name="mfaUse" value="Yes">
+                            <span>Yes, on almost all compatible accounts</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="survey-step" data-step="5">
+                    <h4 class="step-question">Step 5: Rate your general knowledge of Cybersecurity threats:</h4>
+                    <div class="survey-rating-stars">
+                        <input type="radio" id="star5" name="generalRating" value="5" required /><label for="star5" title="Excellent"><i class="fas fa-star"></i></label>
+                        <input type="radio" id="star4" name="generalRating" value="4" /><label for="star4" title="Good"><i class="fas fa-star"></i></label>
+                        <input type="radio" id="star3" name="generalRating" value="3" /><label for="star3" title="Average"><i class="fas fa-star"></i></label>
+                        <input type="radio" id="star2" name="generalRating" value="2" /><label for="star2" title="Poor"><i class="fas fa-star"></i></label>
+                        <input type="radio" id="star1" name="generalRating" value="1" /><label for="star1" title="Very Poor"><i class="fas fa-star"></i></label>
+                    </div>
+                </div>
+
+                <div class="survey-nav-buttons" style="margin-top: 2rem;">
+                    <button type="button" id="prevStepBtn" class="btn btn-secondary" style="padding: 0.5rem 1.5rem; display: none;">Previous</button>
+                    <button type="button" id="nextStepBtn" class="btn btn-primary" style="padding: 0.5rem 1.5rem;">Next</button>
+                    <button type="submit" id="submitSurveyBtn" class="btn btn-primary" style="padding: 0.5rem 1.5rem; display: none;">Submit Survey</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Admin Messages Inbox Modal -->
+    <div id="adminInboxModal" class="modal">
+        <div class="modal-content" style="max-width: 800px;">
+            <div class="modal-header">
+                <h3><i class="fas fa-inbox" style="color: var(--gold); margin-right: 10px;"></i>Secure Admin Inbox</h3>
+                <span class="close-modal" id="closeAdminModal">&times;</span>
+            </div>
+            <div class="admin-password-section" id="adminAuthSection">
+                <p style="margin-bottom: 1.5rem; color: rgba(255,255,255,0.8);">Enter admin authorization key to access decrypted messages:</p>
+                <div class="input-container">
+                    <input type="password" id="adminPasswordInput" class="password-input" placeholder="Enter Authorization Key">
+                    <i class="fas fa-key input-icon"></i>
+                </div>
+                <button type="button" class="btn btn-primary" id="authenticateAdminBtn" style="width: 100%;">
+                    <i class="fas fa-unlock"></i> Decrypt Messages
+                </button>
+            </div>
+            <div class="admin-inbox-content" id="adminInboxContent" style="display: none;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+                    <span style="color: var(--secondary); font-weight: bold;" id="messageCount">0 Messages Found</span>
+                    <button class="btn btn-secondary" style="padding: 0.3rem 1rem; font-size: 0.85rem;" id="refreshMessagesBtn">
+                        <i class="fas fa-sync"></i> Refresh
+                    </button>
+                </div>
+                <div class="messages-list-wrapper" id="messagesListWrapper">
+                    <!-- Messages will be dynamically rendered here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gadget Detail Modal -->
+    <div id="gadgetModal" class="modal">
+        <div class="modal-content" style="max-width: 500px;">
+            <div class="modal-header">
+                <h3 id="gadgetModalTitle">Gadget Details</h3>
+                <span class="close-modal" id="closeGadgetModal">&times;</span>
+            </div>
+            <div class="modal-body" style="padding: 1.5rem 0;">
+                <div style="text-align: center; font-size: 4rem; color: var(--secondary); margin-bottom: 1.5rem;" id="gadgetModalIcon">
+                    <i class="fas fa-key"></i>
+                </div>
+                <div id="gadgetModalContent" style="line-height: 1.6; color: rgba(255,255,255,0.9);">
+                    <!-- Description dynamically loaded -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Forum Mockup Modal -->
+    <div id="forumModal" class="modal">
+        <div class="modal-content" style="max-width: 650px;">
+            <div class="modal-header">
+                <h3 style="display:flex; align-items:center; gap:8px;">
+                    <i class="fas fa-comments" style="color:var(--secondary);"></i> CyberX Discussion Forum
+                </h3>
+                <span class="close-modal" id="closeForumModal">&times;</span>
+            </div>
+            <div class="modal-body" style="padding: 1rem 0;">
+                <p style="color:rgba(255,255,255,0.7); margin-bottom:1.5rem; font-size:0.9rem;">
+                    Connect with other users and security professionals. Share questions, safety tips, and recent alerts.
+                </p>
+                <div class="forum-threads" id="forumThreadsWrapper" style="max-height: 350px; overflow-y: auto; display: flex; flex-direction: column; gap: 15px; padding-right: 5px;">
+                    <!-- Thread 1 -->
+                    <div class="forum-thread" style="background:rgba(255,255,255,0.03); border:1px solid rgba(0,212,255,0.1); border-radius:8px; padding:1rem; transition:all 0.3s ease;">
+                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
+                            <span style="color:var(--gold); font-weight:600; font-size:0.95rem;">Is it safe to store passwords in browser keychain?</span>
+                            <span style="font-size:0.75rem; color:rgba(255,255,255,0.4);">2 hours ago</span>
+                        </div>
+                        <p style="font-size:0.85rem; color:rgba(255,255,255,0.8); margin-bottom:0.8rem;">
+                            I use default browser password saving. Is it safe or should I shift to dedicated manager?
+                        </p>
+                        <div style="display:flex; justify-content:space-between; align-items:center; font-size:0.8rem;">
+                            <span style="color:var(--secondary);"><i class="fas fa-user"></i> tech_guru (Mod)</span>
+                            <span style="color:var(--accent);"><i class="fas fa-reply"></i> 3 replies</span>
+                        </div>
+                    </div>
+                    <!-- Thread 2 -->
+                    <div class="forum-thread" style="background:rgba(255,255,255,0.03); border:1px solid rgba(0,212,255,0.1); border-radius:8px; padding:1rem; transition:all 0.3s ease;">
+                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
+                            <span style="color:var(--gold); font-weight:600; font-size:0.95rem;">Alert: New phishing emails targeting college portals</span>
+                            <span style="font-size:0.75rem; color:rgba(255,255,255,0.4);">Yesterday</span>
+                        </div>
+                        <p style="font-size:0.85rem; color:rgba(255,255,255,0.8); margin-bottom:0.8rem;">
+                            Watch out for fake portal login links claiming emergency password reset. Verify URL!
+                        </p>
+                        <div style="display:flex; justify-content:space-between; align-items:center; font-size:0.8rem;">
+                            <span style="color:var(--secondary);"><i class="fas fa-user"></i> netsec_wizard</span>
+                            <span style="color:var(--accent);"><i class="fas fa-reply"></i> 12 replies</span>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-top:1.5rem; display:flex; gap:10px;">
+                    <input type="text" id="forumNewThreadTitle" placeholder="Post a query in the forum (e.g. Is sharing OTP safe?)..." style="flex:1; background:rgba(0,0,0,0.3); border:1px solid rgba(255,255,255,0.1); border-radius:4px; padding:0.5rem; color:white;">
+                    <button class="btn btn-secondary" id="forumPostBtn" style="padding:0.5rem 1rem; font-size:0.9rem;">Post</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Live Help Desk Chat Modal -->
+    <div id="helpDeskModal" class="modal">
+        <div class="modal-content" style="max-width: 550px; background: #0c0c24; border: 1px solid var(--secondary);">
+            <div class="modal-header" style="border-bottom: 1px solid rgba(0, 212, 255, 0.2);">
+                <h3 style="display:flex; align-items:center; gap:8px;">
+                    <i class="fas fa-headset" style="color:var(--secondary);"></i> CyberX Live Help Desk (AI Assist)
+                </h3>
+                <span class="close-modal" id="closeHelpDeskModal">&times;</span>
+            </div>
+            <div class="modal-body" style="padding: 1rem 0; display: flex; flex-direction: column;">
+                <div id="helpDeskChatLog" style="height: 300px; overflow-y: auto; padding: 12px; display: flex; flex-direction: column; gap: 12px; background: rgba(0,0,0,0.4); border-radius: 6px; border: 1px solid rgba(255,255,255,0.05); margin-bottom: 1rem;">
+                    <div style="align-self: flex-start; background: rgba(0, 212, 255, 0.1); border: 1px solid rgba(0, 212, 255, 0.2); padding: 8px 12px; border-radius: 12px 12px 12px 0; max-width: 80%; font-size: 0.9rem; line-height: 1.4;">
+                        <span style="color: var(--secondary); font-weight: bold; font-size: 0.75rem; display: block; margin-bottom: 2px;">Support Agent (AI)</span>
+                        Welcome to CyberX Security Command Center Help Desk. Please ask any security questions!
+                    </div>
+                </div>
+                <div style="display: flex; gap: 8px;">
+                    <input type="text" id="helpDeskChatInput" placeholder="Type your security question (e.g. phishing, firewall, otp)..." style="flex: 1; background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1); border-radius: 4px; padding: 0.6rem; color: white;">
+                    <button class="btn btn-primary" id="helpDeskSendBtn" style="padding: 0 1.2rem; font-size: 0.9rem;">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Knowledge Base Search Modal -->
+    <div id="guidesModal" class="modal">
+        <div class="modal-content" style="max-width: 600px; background: #0c0c24; border: 1px solid var(--secondary);">
+            <div class="modal-header" style="border-bottom: 1px solid rgba(0, 212, 255, 0.2);">
+                <h3 style="display:flex; align-items:center; gap:8px;">
+                    <i class="fas fa-book" style="color:var(--secondary);"></i> CyberX Security Guides Finder
+                </h3>
+                <span class="close-modal" id="closeGuidesModal">&times;</span>
+            </div>
+            <div class="modal-body" style="padding: 1rem 0;">
+                <div class="input-container" style="margin-bottom: 1.5rem;">
+                    <input type="text" id="guidesSearchInput" class="email-phone-input" placeholder="Type keywords to filter guides (e.g. password, backup, update)..." style="width: 100%; border: 1px solid rgba(0,212,255,0.3);">
+                    <i class="fas fa-search input-icon" style="color: var(--secondary);"></i>
+                </div>
+                <div id="guidesListContainer" style="max-height: 350px; overflow-y: auto; display: flex; flex-direction: column; gap: 12px; padding-right: 5px;">
+                    <!-- Filtered guide cards loaded dynamically -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js?v=9"></script>
+</body>
+</html>

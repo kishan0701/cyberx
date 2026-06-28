@@ -1,0 +1,1842 @@
+[
+  {
+    "id": 1,
+    "ageGroup": "Below 18",
+    "usageHours": "Rarely",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 2,
+    "scores": {
+      "passwordSecurity": 96,
+      "phishingAwareness": 84,
+      "softwareUpdates": 55,
+      "dataBackup": 38,
+      "socialMediaPrivacy": 59
+    },
+    "timestamp": "2026-06-26T07:43:57.761Z"
+  },
+  {
+    "id": 2,
+    "ageGroup": "Below 18",
+    "usageHours": "Rarely",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 93,
+      "phishingAwareness": 77,
+      "softwareUpdates": 51,
+      "dataBackup": 58,
+      "socialMediaPrivacy": 62
+    },
+    "timestamp": "2026-06-27T07:43:57.761Z"
+  },
+  {
+    "id": 3,
+    "ageGroup": "Below 18",
+    "usageHours": "Rarely",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 2,
+    "scores": {
+      "passwordSecurity": 95,
+      "phishingAwareness": 60,
+      "softwareUpdates": 57,
+      "dataBackup": 40,
+      "socialMediaPrivacy": 51
+    },
+    "timestamp": "2026-06-09T07:43:57.761Z"
+  },
+  {
+    "id": 4,
+    "ageGroup": "Below 18",
+    "usageHours": "Rarely",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 77,
+      "phishingAwareness": 66,
+      "softwareUpdates": 67,
+      "dataBackup": 39,
+      "socialMediaPrivacy": 70
+    },
+    "timestamp": "2026-06-12T07:43:57.761Z"
+  },
+  {
+    "id": 5,
+    "ageGroup": "Below 18",
+    "usageHours": "Rarely",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 2,
+    "scores": {
+      "passwordSecurity": 93,
+      "phishingAwareness": 62,
+      "softwareUpdates": 64,
+      "dataBackup": 31,
+      "socialMediaPrivacy": 48
+    },
+    "timestamp": "2026-06-06T07:43:57.761Z"
+  },
+  {
+    "id": 6,
+    "ageGroup": "Below 18",
+    "usageHours": "Rarely",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 2,
+    "scores": {
+      "passwordSecurity": 95,
+      "phishingAwareness": 89,
+      "softwareUpdates": 57,
+      "dataBackup": 32,
+      "socialMediaPrivacy": 55
+    },
+    "timestamp": "2026-06-22T07:43:57.761Z"
+  },
+  {
+    "id": 7,
+    "ageGroup": "Below 18",
+    "usageHours": "Rarely",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 84,
+      "phishingAwareness": 78,
+      "softwareUpdates": 53,
+      "dataBackup": 36,
+      "socialMediaPrivacy": 53
+    },
+    "timestamp": "2026-06-23T07:43:57.761Z"
+  },
+  {
+    "id": 8,
+    "ageGroup": "Below 18",
+    "usageHours": "1-2 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 2,
+    "scores": {
+      "passwordSecurity": 86,
+      "phishingAwareness": 66,
+      "softwareUpdates": 63,
+      "dataBackup": 51,
+      "socialMediaPrivacy": 59
+    },
+    "timestamp": "2026-05-30T07:43:57.761Z"
+  },
+  {
+    "id": 9,
+    "ageGroup": "Below 18",
+    "usageHours": "1-2 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 81,
+      "phishingAwareness": 71,
+      "softwareUpdates": 53,
+      "dataBackup": 45,
+      "socialMediaPrivacy": 70
+    },
+    "timestamp": "2026-06-14T07:43:57.761Z"
+  },
+  {
+    "id": 10,
+    "ageGroup": "Below 18",
+    "usageHours": "1-2 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 91,
+      "phishingAwareness": 66,
+      "softwareUpdates": 56,
+      "dataBackup": 59,
+      "socialMediaPrivacy": 61
+    },
+    "timestamp": "2026-06-23T07:43:57.761Z"
+  },
+  {
+    "id": 11,
+    "ageGroup": "Below 18",
+    "usageHours": "1-2 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 80,
+      "phishingAwareness": 60,
+      "softwareUpdates": 70,
+      "dataBackup": 49,
+      "socialMediaPrivacy": 61
+    },
+    "timestamp": "2026-06-20T07:43:57.761Z"
+  },
+  {
+    "id": 12,
+    "ageGroup": "Below 18",
+    "usageHours": "1-2 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 81,
+      "phishingAwareness": 77,
+      "softwareUpdates": 57,
+      "dataBackup": 50,
+      "socialMediaPrivacy": 48
+    },
+    "timestamp": "2026-05-29T07:43:57.761Z"
+  },
+  {
+    "id": 13,
+    "ageGroup": "Below 18",
+    "usageHours": "1-2 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 88,
+      "phishingAwareness": 74,
+      "softwareUpdates": 67,
+      "dataBackup": 60,
+      "socialMediaPrivacy": 60
+    },
+    "timestamp": "2026-06-22T07:43:57.761Z"
+  },
+  {
+    "id": 14,
+    "ageGroup": "Below 18",
+    "usageHours": "1-2 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 2,
+    "scores": {
+      "passwordSecurity": 93,
+      "phishingAwareness": 72,
+      "softwareUpdates": 67,
+      "dataBackup": 41,
+      "socialMediaPrivacy": 51
+    },
+    "timestamp": "2026-06-24T07:43:57.761Z"
+  },
+  {
+    "id": 15,
+    "ageGroup": "Below 18",
+    "usageHours": "1-2 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 2,
+    "scores": {
+      "passwordSecurity": 92,
+      "phishingAwareness": 89,
+      "softwareUpdates": 51,
+      "dataBackup": 39,
+      "socialMediaPrivacy": 56
+    },
+    "timestamp": "2026-06-03T07:43:57.761Z"
+  },
+  {
+    "id": 16,
+    "ageGroup": "Below 18",
+    "usageHours": "1-2 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 81,
+      "phishingAwareness": 70,
+      "softwareUpdates": 77,
+      "dataBackup": 56,
+      "socialMediaPrivacy": 56
+    },
+    "timestamp": "2026-06-22T07:43:57.761Z"
+  },
+  {
+    "id": 17,
+    "ageGroup": "Below 18",
+    "usageHours": "1-2 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 96,
+      "phishingAwareness": 82,
+      "softwareUpdates": 78,
+      "dataBackup": 25,
+      "socialMediaPrivacy": 55
+    },
+    "timestamp": "2026-06-03T07:43:57.761Z"
+  },
+  {
+    "id": 18,
+    "ageGroup": "Below 18",
+    "usageHours": "1-2 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 85,
+      "phishingAwareness": 81,
+      "softwareUpdates": 51,
+      "dataBackup": 54,
+      "socialMediaPrivacy": 69
+    },
+    "timestamp": "2026-06-11T07:43:57.761Z"
+  },
+  {
+    "id": 19,
+    "ageGroup": "Below 18",
+    "usageHours": "1-2 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 79,
+      "phishingAwareness": 72,
+      "softwareUpdates": 79,
+      "dataBackup": 59,
+      "socialMediaPrivacy": 56
+    },
+    "timestamp": "2026-05-30T07:43:57.761Z"
+  },
+  {
+    "id": 20,
+    "ageGroup": "Below 18",
+    "usageHours": "1-2 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 86,
+      "phishingAwareness": 87,
+      "softwareUpdates": 70,
+      "dataBackup": 23,
+      "socialMediaPrivacy": 57
+    },
+    "timestamp": "2026-06-13T07:43:57.761Z"
+  },
+  {
+    "id": 21,
+    "ageGroup": "Below 18",
+    "usageHours": "1-2 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 2,
+    "scores": {
+      "passwordSecurity": 91,
+      "phishingAwareness": 87,
+      "softwareUpdates": 51,
+      "dataBackup": 33,
+      "socialMediaPrivacy": 59
+    },
+    "timestamp": "2026-06-08T07:43:57.761Z"
+  },
+  {
+    "id": 22,
+    "ageGroup": "Below 18",
+    "usageHours": "1-2 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 82,
+      "phishingAwareness": 85,
+      "softwareUpdates": 64,
+      "dataBackup": 32,
+      "socialMediaPrivacy": 47
+    },
+    "timestamp": "2026-06-11T07:43:57.761Z"
+  },
+  {
+    "id": 23,
+    "ageGroup": "Below 18",
+    "usageHours": "1-2 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 2,
+    "scores": {
+      "passwordSecurity": 89,
+      "phishingAwareness": 77,
+      "softwareUpdates": 68,
+      "dataBackup": 25,
+      "socialMediaPrivacy": 70
+    },
+    "timestamp": "2026-06-22T07:43:57.761Z"
+  },
+  {
+    "id": 24,
+    "ageGroup": "Below 18",
+    "usageHours": "1-2 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 2,
+    "scores": {
+      "passwordSecurity": 76,
+      "phishingAwareness": 83,
+      "softwareUpdates": 59,
+      "dataBackup": 52,
+      "socialMediaPrivacy": 62
+    },
+    "timestamp": "2026-06-16T07:43:57.761Z"
+  },
+  {
+    "id": 25,
+    "ageGroup": "Below 18",
+    "usageHours": "1-2 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 2,
+    "scores": {
+      "passwordSecurity": 99,
+      "phishingAwareness": 81,
+      "softwareUpdates": 74,
+      "dataBackup": 47,
+      "socialMediaPrivacy": 41
+    },
+    "timestamp": "2026-06-11T07:43:57.761Z"
+  },
+  {
+    "id": 26,
+    "ageGroup": "Below 18",
+    "usageHours": "1-2 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 93,
+      "phishingAwareness": 67,
+      "softwareUpdates": 77,
+      "dataBackup": 21,
+      "socialMediaPrivacy": 58
+    },
+    "timestamp": "2026-06-05T07:43:57.761Z"
+  },
+  {
+    "id": 27,
+    "ageGroup": "Below 18",
+    "usageHours": "1-2 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 2,
+    "scores": {
+      "passwordSecurity": 77,
+      "phishingAwareness": 65,
+      "softwareUpdates": 69,
+      "dataBackup": 47,
+      "socialMediaPrivacy": 60
+    },
+    "timestamp": "2026-06-01T07:43:57.761Z"
+  },
+  {
+    "id": 28,
+    "ageGroup": "Below 18",
+    "usageHours": "1-2 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 86,
+      "phishingAwareness": 90,
+      "softwareUpdates": 51,
+      "dataBackup": 43,
+      "socialMediaPrivacy": 48
+    },
+    "timestamp": "2026-06-06T07:43:57.761Z"
+  },
+  {
+    "id": 29,
+    "ageGroup": "Below 18",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 95,
+      "phishingAwareness": 62,
+      "softwareUpdates": 67,
+      "dataBackup": 42,
+      "socialMediaPrivacy": 70
+    },
+    "timestamp": "2026-06-23T07:43:57.761Z"
+  },
+  {
+    "id": 30,
+    "ageGroup": "18-30",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 81,
+      "phishingAwareness": 69,
+      "softwareUpdates": 87,
+      "dataBackup": 40,
+      "socialMediaPrivacy": 59
+    },
+    "timestamp": "2026-06-25T07:43:57.761Z"
+  },
+  {
+    "id": 31,
+    "ageGroup": "18-30",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 95,
+      "phishingAwareness": 75,
+      "softwareUpdates": 71,
+      "dataBackup": 37,
+      "socialMediaPrivacy": 79
+    },
+    "timestamp": "2026-06-05T07:43:57.761Z"
+  },
+  {
+    "id": 32,
+    "ageGroup": "18-30",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 91,
+      "phishingAwareness": 70,
+      "softwareUpdates": 86,
+      "dataBackup": 38,
+      "socialMediaPrivacy": 79
+    },
+    "timestamp": "2026-05-29T07:43:57.761Z"
+  },
+  {
+    "id": 33,
+    "ageGroup": "18-30",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 77,
+      "phishingAwareness": 84,
+      "softwareUpdates": 92,
+      "dataBackup": 41,
+      "socialMediaPrivacy": 54
+    },
+    "timestamp": "2026-06-01T07:43:57.761Z"
+  },
+  {
+    "id": 34,
+    "ageGroup": "18-30",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 88,
+      "phishingAwareness": 72,
+      "softwareUpdates": 88,
+      "dataBackup": 56,
+      "socialMediaPrivacy": 78
+    },
+    "timestamp": "2026-06-22T07:43:57.761Z"
+  },
+  {
+    "id": 35,
+    "ageGroup": "18-30",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 83,
+      "phishingAwareness": 68,
+      "softwareUpdates": 85,
+      "dataBackup": 45,
+      "socialMediaPrivacy": 84
+    },
+    "timestamp": "2026-06-14T07:43:57.761Z"
+  },
+  {
+    "id": 36,
+    "ageGroup": "18-30",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 80,
+      "phishingAwareness": 74,
+      "softwareUpdates": 71,
+      "dataBackup": 60,
+      "socialMediaPrivacy": 79
+    },
+    "timestamp": "2026-06-19T07:43:57.761Z"
+  },
+  {
+    "id": 37,
+    "ageGroup": "18-30",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 84,
+      "phishingAwareness": 67,
+      "softwareUpdates": 71,
+      "dataBackup": 23,
+      "socialMediaPrivacy": 51
+    },
+    "timestamp": "2026-06-23T07:43:57.761Z"
+  },
+  {
+    "id": 38,
+    "ageGroup": "18-30",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 95,
+      "phishingAwareness": 66,
+      "softwareUpdates": 94,
+      "dataBackup": 23,
+      "socialMediaPrivacy": 68
+    },
+    "timestamp": "2026-06-08T07:43:57.761Z"
+  },
+  {
+    "id": 39,
+    "ageGroup": "18-30",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 82,
+      "phishingAwareness": 74,
+      "softwareUpdates": 77,
+      "dataBackup": 33,
+      "socialMediaPrivacy": 69
+    },
+    "timestamp": "2026-06-03T07:43:57.761Z"
+  },
+  {
+    "id": 40,
+    "ageGroup": "18-30",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 85,
+      "phishingAwareness": 85,
+      "softwareUpdates": 90,
+      "dataBackup": 60,
+      "socialMediaPrivacy": 65
+    },
+    "timestamp": "2026-06-06T07:43:57.761Z"
+  },
+  {
+    "id": 41,
+    "ageGroup": "18-30",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 77,
+      "phishingAwareness": 79,
+      "softwareUpdates": 80,
+      "dataBackup": 29,
+      "socialMediaPrivacy": 75
+    },
+    "timestamp": "2026-06-11T07:43:57.761Z"
+  },
+  {
+    "id": 42,
+    "ageGroup": "18-30",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 75,
+      "phishingAwareness": 68,
+      "softwareUpdates": 87,
+      "dataBackup": 22,
+      "socialMediaPrivacy": 51
+    },
+    "timestamp": "2026-06-15T07:43:57.761Z"
+  },
+  {
+    "id": 43,
+    "ageGroup": "18-30",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 77,
+      "phishingAwareness": 62,
+      "softwareUpdates": 83,
+      "dataBackup": 43,
+      "socialMediaPrivacy": 70
+    },
+    "timestamp": "2026-06-17T07:43:57.761Z"
+  },
+  {
+    "id": 44,
+    "ageGroup": "18-30",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 85,
+      "phishingAwareness": 65,
+      "softwareUpdates": 84,
+      "dataBackup": 54,
+      "socialMediaPrivacy": 81
+    },
+    "timestamp": "2026-06-17T07:43:57.761Z"
+  },
+  {
+    "id": 45,
+    "ageGroup": "18-30",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 99,
+      "phishingAwareness": 63,
+      "softwareUpdates": 83,
+      "dataBackup": 59,
+      "socialMediaPrivacy": 52
+    },
+    "timestamp": "2026-06-08T07:43:57.761Z"
+  },
+  {
+    "id": 46,
+    "ageGroup": "18-30",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 85,
+      "phishingAwareness": 76,
+      "softwareUpdates": 70,
+      "dataBackup": 24,
+      "socialMediaPrivacy": 81
+    },
+    "timestamp": "2026-06-10T07:43:57.761Z"
+  },
+  {
+    "id": 47,
+    "ageGroup": "18-30",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 83,
+      "phishingAwareness": 60,
+      "softwareUpdates": 88,
+      "dataBackup": 56,
+      "socialMediaPrivacy": 63
+    },
+    "timestamp": "2026-06-06T07:43:57.761Z"
+  },
+  {
+    "id": 48,
+    "ageGroup": "18-30",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 77,
+      "phishingAwareness": 60,
+      "softwareUpdates": 86,
+      "dataBackup": 25,
+      "socialMediaPrivacy": 72
+    },
+    "timestamp": "2026-06-21T07:43:57.761Z"
+  },
+  {
+    "id": 49,
+    "ageGroup": "18-30",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 76,
+      "phishingAwareness": 76,
+      "softwareUpdates": 75,
+      "dataBackup": 59,
+      "socialMediaPrivacy": 74
+    },
+    "timestamp": "2026-06-27T07:43:57.761Z"
+  },
+  {
+    "id": 50,
+    "ageGroup": "18-30",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 87,
+      "phishingAwareness": 77,
+      "softwareUpdates": 89,
+      "dataBackup": 56,
+      "socialMediaPrivacy": 59
+    },
+    "timestamp": "2026-06-06T07:43:57.761Z"
+  },
+  {
+    "id": 51,
+    "ageGroup": "18-30",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 89,
+      "phishingAwareness": 61,
+      "softwareUpdates": 88,
+      "dataBackup": 45,
+      "socialMediaPrivacy": 73
+    },
+    "timestamp": "2026-06-08T07:43:57.761Z"
+  },
+  {
+    "id": 52,
+    "ageGroup": "18-30",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 92,
+      "phishingAwareness": 81,
+      "softwareUpdates": 81,
+      "dataBackup": 43,
+      "socialMediaPrivacy": 71
+    },
+    "timestamp": "2026-06-26T07:43:57.761Z"
+  },
+  {
+    "id": 53,
+    "ageGroup": "18-30",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 83,
+      "phishingAwareness": 70,
+      "softwareUpdates": 86,
+      "dataBackup": 30,
+      "socialMediaPrivacy": 64
+    },
+    "timestamp": "2026-06-11T07:43:57.761Z"
+  },
+  {
+    "id": 54,
+    "ageGroup": "18-30",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 78,
+      "phishingAwareness": 82,
+      "softwareUpdates": 85,
+      "dataBackup": 27,
+      "socialMediaPrivacy": 70
+    },
+    "timestamp": "2026-06-03T07:43:57.761Z"
+  },
+  {
+    "id": 55,
+    "ageGroup": "18-30",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 99,
+      "phishingAwareness": 62,
+      "softwareUpdates": 93,
+      "dataBackup": 45,
+      "socialMediaPrivacy": 65
+    },
+    "timestamp": "2026-05-31T07:43:57.761Z"
+  },
+  {
+    "id": 56,
+    "ageGroup": "18-30",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 84,
+      "phishingAwareness": 74,
+      "softwareUpdates": 71,
+      "dataBackup": 21,
+      "socialMediaPrivacy": 77
+    },
+    "timestamp": "2026-06-17T07:43:57.761Z"
+  },
+  {
+    "id": 57,
+    "ageGroup": "18-30",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 94,
+      "phishingAwareness": 66,
+      "softwareUpdates": 80,
+      "dataBackup": 54,
+      "socialMediaPrivacy": 50
+    },
+    "timestamp": "2026-06-02T07:43:57.761Z"
+  },
+  {
+    "id": 58,
+    "ageGroup": "18-30",
+    "usageHours": "3-5 hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 86,
+      "phishingAwareness": 84,
+      "softwareUpdates": 86,
+      "dataBackup": 45,
+      "socialMediaPrivacy": 75
+    },
+    "timestamp": "2026-06-26T07:43:57.761Z"
+  },
+  {
+    "id": 59,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 83,
+      "phishingAwareness": 79,
+      "softwareUpdates": 81,
+      "dataBackup": 54,
+      "socialMediaPrivacy": 75
+    },
+    "timestamp": "2026-06-19T07:43:57.761Z"
+  },
+  {
+    "id": 60,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 91,
+      "phishingAwareness": 61,
+      "softwareUpdates": 82,
+      "dataBackup": 55,
+      "socialMediaPrivacy": 54
+    },
+    "timestamp": "2026-06-09T07:43:57.761Z"
+  },
+  {
+    "id": 61,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 85,
+      "phishingAwareness": 62,
+      "softwareUpdates": 95,
+      "dataBackup": 60,
+      "socialMediaPrivacy": 72
+    },
+    "timestamp": "2026-05-31T07:43:57.761Z"
+  },
+  {
+    "id": 62,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 90,
+      "phishingAwareness": 89,
+      "softwareUpdates": 89,
+      "dataBackup": 54,
+      "socialMediaPrivacy": 79
+    },
+    "timestamp": "2026-06-11T07:43:57.761Z"
+  },
+  {
+    "id": 63,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "Yes",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 77,
+      "phishingAwareness": 76,
+      "softwareUpdates": 92,
+      "dataBackup": 54,
+      "socialMediaPrivacy": 68
+    },
+    "timestamp": "2026-06-22T07:43:57.761Z"
+  },
+  {
+    "id": 64,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Strong",
+    "mfaUse": "No",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 81,
+      "phishingAwareness": 60,
+      "softwareUpdates": 89,
+      "dataBackup": 50,
+      "socialMediaPrivacy": 69
+    },
+    "timestamp": "2026-06-20T07:43:57.761Z"
+  },
+  {
+    "id": 65,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 36,
+      "phishingAwareness": 48,
+      "softwareUpdates": 95,
+      "dataBackup": 53,
+      "socialMediaPrivacy": 69
+    },
+    "timestamp": "2026-06-07T07:43:57.761Z"
+  },
+  {
+    "id": 66,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 34,
+      "phishingAwareness": 66,
+      "softwareUpdates": 87,
+      "dataBackup": 62,
+      "socialMediaPrivacy": 72
+    },
+    "timestamp": "2026-06-09T07:43:57.761Z"
+  },
+  {
+    "id": 67,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 23,
+      "phishingAwareness": 63,
+      "softwareUpdates": 79,
+      "dataBackup": 64,
+      "socialMediaPrivacy": 82
+    },
+    "timestamp": "2026-06-14T07:43:57.761Z"
+  },
+  {
+    "id": 68,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 21,
+      "phishingAwareness": 39,
+      "softwareUpdates": 88,
+      "dataBackup": 56,
+      "socialMediaPrivacy": 52
+    },
+    "timestamp": "2026-06-19T07:43:57.761Z"
+  },
+  {
+    "id": 69,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 50,
+      "phishingAwareness": 64,
+      "softwareUpdates": 81,
+      "dataBackup": 67,
+      "socialMediaPrivacy": 63
+    },
+    "timestamp": "2026-06-12T07:43:57.761Z"
+  },
+  {
+    "id": 70,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 31,
+      "phishingAwareness": 69,
+      "softwareUpdates": 73,
+      "dataBackup": 63,
+      "socialMediaPrivacy": 71
+    },
+    "timestamp": "2026-06-26T07:43:57.761Z"
+  },
+  {
+    "id": 71,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 50,
+      "phishingAwareness": 52,
+      "softwareUpdates": 92,
+      "dataBackup": 61,
+      "socialMediaPrivacy": 52
+    },
+    "timestamp": "2026-06-09T07:43:57.761Z"
+  },
+  {
+    "id": 72,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 42,
+      "phishingAwareness": 61,
+      "softwareUpdates": 75,
+      "dataBackup": 69,
+      "socialMediaPrivacy": 56
+    },
+    "timestamp": "2026-06-06T07:43:57.761Z"
+  },
+  {
+    "id": 73,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 21,
+      "phishingAwareness": 56,
+      "softwareUpdates": 77,
+      "dataBackup": 71,
+      "socialMediaPrivacy": 56
+    },
+    "timestamp": "2026-06-05T07:43:57.761Z"
+  },
+  {
+    "id": 74,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 33,
+      "phishingAwareness": 66,
+      "softwareUpdates": 95,
+      "dataBackup": 73,
+      "socialMediaPrivacy": 60
+    },
+    "timestamp": "2026-06-22T07:43:57.761Z"
+  },
+  {
+    "id": 75,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 24,
+      "phishingAwareness": 60,
+      "softwareUpdates": 78,
+      "dataBackup": 50,
+      "socialMediaPrivacy": 57
+    },
+    "timestamp": "2026-06-27T07:43:57.761Z"
+  },
+  {
+    "id": 76,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 30,
+      "phishingAwareness": 44,
+      "softwareUpdates": 73,
+      "dataBackup": 54,
+      "socialMediaPrivacy": 75
+    },
+    "timestamp": "2026-06-23T07:43:57.761Z"
+  },
+  {
+    "id": 77,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 47,
+      "phishingAwareness": 66,
+      "softwareUpdates": 77,
+      "dataBackup": 64,
+      "socialMediaPrivacy": 67
+    },
+    "timestamp": "2026-06-12T07:43:57.761Z"
+  },
+  {
+    "id": 78,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 32,
+      "phishingAwareness": 43,
+      "softwareUpdates": 77,
+      "dataBackup": 67,
+      "socialMediaPrivacy": 64
+    },
+    "timestamp": "2026-06-16T07:43:57.761Z"
+  },
+  {
+    "id": 79,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 50,
+      "phishingAwareness": 30,
+      "softwareUpdates": 70,
+      "dataBackup": 72,
+      "socialMediaPrivacy": 75
+    },
+    "timestamp": "2026-06-22T07:43:57.761Z"
+  },
+  {
+    "id": 80,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 25,
+      "phishingAwareness": 68,
+      "softwareUpdates": 87,
+      "dataBackup": 74,
+      "socialMediaPrivacy": 56
+    },
+    "timestamp": "2026-06-22T07:43:57.761Z"
+  },
+  {
+    "id": 81,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 41,
+      "phishingAwareness": 59,
+      "softwareUpdates": 90,
+      "dataBackup": 73,
+      "socialMediaPrivacy": 59
+    },
+    "timestamp": "2026-06-26T07:43:57.761Z"
+  },
+  {
+    "id": 82,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 31,
+      "phishingAwareness": 53,
+      "softwareUpdates": 80,
+      "dataBackup": 55,
+      "socialMediaPrivacy": 74
+    },
+    "timestamp": "2026-06-04T07:43:57.761Z"
+  },
+  {
+    "id": 83,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 24,
+      "phishingAwareness": 63,
+      "softwareUpdates": 84,
+      "dataBackup": 62,
+      "socialMediaPrivacy": 69
+    },
+    "timestamp": "2026-06-21T07:43:57.761Z"
+  },
+  {
+    "id": 84,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 49,
+      "phishingAwareness": 44,
+      "softwareUpdates": 91,
+      "dataBackup": 51,
+      "socialMediaPrivacy": 55
+    },
+    "timestamp": "2026-06-21T07:43:57.761Z"
+  },
+  {
+    "id": 85,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 37,
+      "phishingAwareness": 34,
+      "softwareUpdates": 87,
+      "dataBackup": 60,
+      "socialMediaPrivacy": 71
+    },
+    "timestamp": "2026-06-07T07:43:57.761Z"
+  },
+  {
+    "id": 86,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 23,
+      "phishingAwareness": 50,
+      "softwareUpdates": 86,
+      "dataBackup": 54,
+      "socialMediaPrivacy": 62
+    },
+    "timestamp": "2026-06-02T07:43:57.761Z"
+  },
+  {
+    "id": 87,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 34,
+      "phishingAwareness": 50,
+      "softwareUpdates": 71,
+      "dataBackup": 52,
+      "socialMediaPrivacy": 74
+    },
+    "timestamp": "2026-05-31T07:43:57.761Z"
+  },
+  {
+    "id": 88,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 26,
+      "phishingAwareness": 50,
+      "softwareUpdates": 76,
+      "dataBackup": 72,
+      "socialMediaPrivacy": 68
+    },
+    "timestamp": "2026-06-13T07:43:57.761Z"
+  },
+  {
+    "id": 89,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 41,
+      "phishingAwareness": 70,
+      "softwareUpdates": 84,
+      "dataBackup": 62,
+      "socialMediaPrivacy": 54
+    },
+    "timestamp": "2026-05-30T07:43:57.761Z"
+  },
+  {
+    "id": 90,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 43,
+      "phishingAwareness": 67,
+      "softwareUpdates": 89,
+      "dataBackup": 51,
+      "socialMediaPrivacy": 65
+    },
+    "timestamp": "2026-06-02T07:43:57.761Z"
+  },
+  {
+    "id": 91,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 42,
+      "phishingAwareness": 34,
+      "softwareUpdates": 93,
+      "dataBackup": 74,
+      "socialMediaPrivacy": 70
+    },
+    "timestamp": "2026-06-12T07:43:57.761Z"
+  },
+  {
+    "id": 92,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 40,
+      "phishingAwareness": 48,
+      "softwareUpdates": 91,
+      "dataBackup": 78,
+      "socialMediaPrivacy": 75
+    },
+    "timestamp": "2026-06-11T07:43:57.761Z"
+  },
+  {
+    "id": 93,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 27,
+      "phishingAwareness": 47,
+      "softwareUpdates": 86,
+      "dataBackup": 58,
+      "socialMediaPrivacy": 68
+    },
+    "timestamp": "2026-06-11T07:43:57.761Z"
+  },
+  {
+    "id": 94,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 41,
+      "phishingAwareness": 63,
+      "softwareUpdates": 73,
+      "dataBackup": 61,
+      "socialMediaPrivacy": 57
+    },
+    "timestamp": "2026-06-06T07:43:57.761Z"
+  },
+  {
+    "id": 95,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 22,
+      "phishingAwareness": 35,
+      "softwareUpdates": 84,
+      "dataBackup": 59,
+      "socialMediaPrivacy": 70
+    },
+    "timestamp": "2026-06-03T07:43:57.761Z"
+  },
+  {
+    "id": 96,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 37,
+      "phishingAwareness": 33,
+      "softwareUpdates": 74,
+      "dataBackup": 55,
+      "socialMediaPrivacy": 62
+    },
+    "timestamp": "2026-05-30T07:43:57.761Z"
+  },
+  {
+    "id": 97,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 21,
+      "phishingAwareness": 45,
+      "softwareUpdates": 79,
+      "dataBackup": 50,
+      "socialMediaPrivacy": 50
+    },
+    "timestamp": "2026-06-03T07:43:57.761Z"
+  },
+  {
+    "id": 98,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "No",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 22,
+      "phishingAwareness": 50,
+      "softwareUpdates": 77,
+      "dataBackup": 71,
+      "socialMediaPrivacy": 51
+    },
+    "timestamp": "2026-05-30T07:43:57.761Z"
+  },
+  {
+    "id": 99,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "Sometimes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 49,
+      "phishingAwareness": 53,
+      "softwareUpdates": 72,
+      "dataBackup": 66,
+      "socialMediaPrivacy": 68
+    },
+    "timestamp": "2026-06-21T07:43:57.761Z"
+  },
+  {
+    "id": 100,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Weak",
+    "mfaUse": "Sometimes",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 49,
+      "phishingAwareness": 47,
+      "softwareUpdates": 79,
+      "dataBackup": 76,
+      "socialMediaPrivacy": 80
+    },
+    "timestamp": "2026-06-03T07:43:57.761Z"
+  },
+  {
+    "id": 101,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Medium",
+    "mfaUse": "Sometimes",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 64,
+      "phishingAwareness": 70,
+      "softwareUpdates": 91,
+      "dataBackup": 69,
+      "socialMediaPrivacy": 54
+    },
+    "timestamp": "2026-06-16T07:43:57.761Z"
+  },
+  {
+    "id": 102,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Medium",
+    "mfaUse": "Sometimes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 69,
+      "phishingAwareness": 42,
+      "softwareUpdates": 70,
+      "dataBackup": 68,
+      "socialMediaPrivacy": 52
+    },
+    "timestamp": "2026-06-17T07:43:57.761Z"
+  },
+  {
+    "id": 103,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Medium",
+    "mfaUse": "Sometimes",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 51,
+      "phishingAwareness": 34,
+      "softwareUpdates": 72,
+      "dataBackup": 68,
+      "socialMediaPrivacy": 54
+    },
+    "timestamp": "2026-06-13T07:43:57.761Z"
+  },
+  {
+    "id": 104,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Medium",
+    "mfaUse": "Sometimes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 51,
+      "phishingAwareness": 58,
+      "softwareUpdates": 75,
+      "dataBackup": 71,
+      "socialMediaPrivacy": 52
+    },
+    "timestamp": "2026-06-20T07:43:57.761Z"
+  },
+  {
+    "id": 105,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Medium",
+    "mfaUse": "Sometimes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 69,
+      "phishingAwareness": 49,
+      "softwareUpdates": 80,
+      "dataBackup": 69,
+      "socialMediaPrivacy": 84
+    },
+    "timestamp": "2026-06-05T07:43:57.761Z"
+  },
+  {
+    "id": 106,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Medium",
+    "mfaUse": "Sometimes",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 60,
+      "phishingAwareness": 61,
+      "softwareUpdates": 90,
+      "dataBackup": 72,
+      "socialMediaPrivacy": 84
+    },
+    "timestamp": "2026-06-09T07:43:57.761Z"
+  },
+  {
+    "id": 107,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Medium",
+    "mfaUse": "Sometimes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 72,
+      "phishingAwareness": 70,
+      "softwareUpdates": 83,
+      "dataBackup": 66,
+      "socialMediaPrivacy": 54
+    },
+    "timestamp": "2026-06-23T07:43:57.761Z"
+  },
+  {
+    "id": 108,
+    "ageGroup": "18-30",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Medium",
+    "mfaUse": "Sometimes",
+    "generalRating": 3,
+    "scores": {
+      "passwordSecurity": 52,
+      "phishingAwareness": 50,
+      "softwareUpdates": 95,
+      "dataBackup": 68,
+      "socialMediaPrivacy": 65
+    },
+    "timestamp": "2026-06-15T07:43:57.761Z"
+  },
+  {
+    "id": 109,
+    "ageGroup": "30-45",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Medium",
+    "mfaUse": "Sometimes",
+    "generalRating": 5,
+    "scores": {
+      "passwordSecurity": 60,
+      "phishingAwareness": 56,
+      "softwareUpdates": 72,
+      "dataBackup": 70,
+      "socialMediaPrivacy": 55
+    },
+    "timestamp": "2026-06-11T07:43:57.761Z"
+  },
+  {
+    "id": 110,
+    "ageGroup": "30-45",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Medium",
+    "mfaUse": "Sometimes",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 52,
+      "phishingAwareness": 57,
+      "softwareUpdates": 77,
+      "dataBackup": 80,
+      "socialMediaPrivacy": 65
+    },
+    "timestamp": "2026-06-22T07:43:57.761Z"
+  },
+  {
+    "id": 111,
+    "ageGroup": "30-45",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Medium",
+    "mfaUse": "Sometimes",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 59,
+      "phishingAwareness": 31,
+      "softwareUpdates": 60,
+      "dataBackup": 54,
+      "socialMediaPrivacy": 53
+    },
+    "timestamp": "2026-06-25T07:43:57.761Z"
+  },
+  {
+    "id": 112,
+    "ageGroup": "30-45",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Medium",
+    "mfaUse": "Sometimes",
+    "generalRating": 5,
+    "scores": {
+      "passwordSecurity": 50,
+      "phishingAwareness": 59,
+      "softwareUpdates": 52,
+      "dataBackup": 63,
+      "socialMediaPrivacy": 67
+    },
+    "timestamp": "2026-06-19T07:43:57.761Z"
+  },
+  {
+    "id": 113,
+    "ageGroup": "30-45",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Medium",
+    "mfaUse": "Sometimes",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 68,
+      "phishingAwareness": 69,
+      "softwareUpdates": 69,
+      "dataBackup": 78,
+      "socialMediaPrivacy": 55
+    },
+    "timestamp": "2026-06-17T07:43:57.761Z"
+  },
+  {
+    "id": 114,
+    "ageGroup": "30-45",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Medium",
+    "mfaUse": "Sometimes",
+    "generalRating": 5,
+    "scores": {
+      "passwordSecurity": 60,
+      "phishingAwareness": 31,
+      "softwareUpdates": 50,
+      "dataBackup": 76,
+      "socialMediaPrivacy": 74
+    },
+    "timestamp": "2026-06-04T07:43:57.761Z"
+  },
+  {
+    "id": 115,
+    "ageGroup": "30-45",
+    "usageHours": "5+ hours",
+    "passwordStrength": "Medium",
+    "mfaUse": "Sometimes",
+    "generalRating": 4,
+    "scores": {
+      "passwordSecurity": 63,
+      "phishingAwareness": 43,
+      "softwareUpdates": 80,
+      "dataBackup": 62,
+      "socialMediaPrivacy": 82
+    },
+    "timestamp": "2026-06-20T07:43:57.761Z"
+  }
+]
