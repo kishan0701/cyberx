@@ -3,7 +3,7 @@
 // Example: const API_BASE = 'https://cyberx-backend.onrender.com';
 const API_BASE = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
     ? 'http://localhost:5000'
-    : 'https://YOUR_RENDER_APP_NAME.onrender.com'; // <-- Replace this after deploying backend
+    : 'https://cyberx-4qz9.onrender.com'; // ✅ Render Backend Live!
 // =============================================
 
 // Resource data with enhanced content
